@@ -24,7 +24,7 @@ if user_input:
 
     # OpenAI API 호출
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo",
         messages=st.session_state.messages
     )
 
